@@ -22,9 +22,9 @@ using namespace std;
 //	Higher Dimensions.
 
 //Function Prototypes
-void prntBrd(int size = 29);                              // Generates horizontal border using character limits
-int rollDie();                                            // Calculates random single six-sided dice numerical result
-void compTrn(int &cScr, int pScr, bool &cTrn);            // Executes rule-based automated turn processing engine
+void prntBrd(int size = 29);                              //Generates horizontal border using character limits
+int rollDie();                                            //Calculates random single six-sided dice numerical result
+void compTrn(int &cScr, int pScr, bool &cTrn);            //Executes rule-based automated turn processing engine
 void logTurn(int stats[][10], int row, int col, int val);
 
 //Program Execution Begins Here
@@ -54,11 +54,11 @@ int main(int argv,char **argc){
 	ofstream fout;      //Output file stream
 	
 	//Array/Vector Declarations
-	int pRolls[50];     // Ch 7: 1D Array tracking human dice values
-	int pCount;         // Tracks index counter for human rolls
-	int rndStat[2][10]; // Ch 7: 2D Array tracking row 0 (player) and row 1 (computer) turn scores
-	int turnIdx;        // Tracks turn counter column for 2D array
-	vector<int> hScores; // Ch 7: STL Vector tracking total match score logs
+	int pRolls[50];     //1D Array tracking human dice values
+	int pCount;         //Tracks index counter for human rolls
+	int rndStat[2][10]; //2D Array tracking row 0 (player) and row 1 (computer) turn scores
+	int turnIdx;        //Tracks turn counter column for 2D array
+	vector<int> hScores; //STL Vector tracking total match score logs
 	
 	//Seed Random number engine with system clock
 	
