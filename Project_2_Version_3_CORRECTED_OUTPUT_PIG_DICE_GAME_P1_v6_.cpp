@@ -1,7 +1,7 @@
 /*
 	Name: 		Michael R. Reynoso
 	Date: 		July 31st, 2026
-	Purpose: 	Pig Dice Game - Project 2 Version 2 (Project 1 Version 6) with Functions
+	Purpose: 	Pig Dice Game - Project 2 Version 3 (Project 1 Version 7) with Arrays, Corrected Output Format
 */
 
 //System Libraries
