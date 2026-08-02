@@ -61,8 +61,6 @@ int main(int argv,char **argc){
 	vector<int> hScores; //STL Vector tracking total match score logs
 	
 	//Seed Random number engine with system clock
-	
-	//Seed Random number engine with system clock
 	srand(time(0));
 
 	//Initialize Variables
